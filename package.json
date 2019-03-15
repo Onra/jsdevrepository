@@ -1,0 +1,33 @@
+{
+  "name": "jsdevrepository",
+  "version": "1.0.0",
+  "description": "The JS Dev Directory is a comprehensive list of blogs & sites covering JavaScript development.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Onra/jsdevrepository.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "resources",
+    "blogs",
+    "tutorials"
+  ],
+  "author": "Arnaud Christ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Onra/jsdevrepository/issues"
+  },
+  "homepage": "https://github.com/Onra/jsdevrepository#readme",
+  "dependencies": {
+    "next": "^8.0.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}

@@ -3,28 +3,38 @@ import Title from "../atoms/title";
 
 const Header = () => (
   <header>
-    <Title text="JS Dev Directory" />
-    <nav>
-      <ul className="menu-items">
-        <Link href="/">
-          <li className="menu-item">Home</li>
-        </Link>
-        <Link href="contributing">
-          <li className="menu-item">Contributing</li>
-        </Link>
-        <Link href="about">
-          <li className="menu-item">About</li>
-        </Link>
-      </ul>
-    </nav>
+    <div className="container">
+      <Title text="JS Dev Directory" />
+      <nav>
+        <ul className="menu-items">
+          <Link href="/">
+            <li className="menu-item">Home</li>
+          </Link>
+          <Link href="contributing">
+            <li className="menu-item">Contributing</li>
+          </Link>
+          <Link href="about">
+            <li className="menu-item">About</li>
+          </Link>
+        </ul>
+      </nav>
+    </div>
     <style jsx>
       {`
         header {
+          background-color: #415ae1;
+          color: #ffffff;
+          display: flex;
+          justify-content: center;
+        }
+
+        .container {
           display: flex;
           align-items: center;
           justify-content: space-between;
-          background-color: #415ae1;
-          color: #ffffff;
+          height: 80px;
+          width: 1400px;
+          padding: 0 20px;
         }
 
         .menu-items {
@@ -37,10 +47,6 @@ const Header = () => (
           min-width: 160px;
           text-align: center;
           cursor: pointer;
-        }
-
-        .menu-item:hover {
-          border-bottom: 2px #ffffff solid;
         }
       `}
     </style>

@@ -1,43 +1,50 @@
 import Link from "next/link";
-import injectSheet from "react-jss";
 import Title from "../atoms/title";
 
-const styles = {
-  header: {
-    display: "flex",
-    justifyContent: "space-between"
-  },
-
-  items: {
-    listStyle: "none",
-    display: "flex"
-  },
-
-  item: {
-    textTransform: "uppercase",
-    minWidth: 160,
-    textAlign: "center",
-    cursor: "pointer"
-  }
-};
-
-const Header = ({ classes }) => (
-  <header className={classes.header}>
+const Header = () => (
+  <header>
     <Title text="JS Dev Directory" />
     <nav>
-      <ul className={classes.items}>
+      <ul className="menu-items">
         <Link href="/">
-          <li className={classes.item}>Home</li>
+          <li className="menu-item">Home</li>
         </Link>
         <Link href="contributing">
-          <li className={classes.item}>Contributing</li>
+          <li className="menu-item">Contributing</li>
         </Link>
         <Link href="about">
-          <li className={classes.item}>About</li>
+          <li className="menu-item">About</li>
         </Link>
       </ul>
     </nav>
+    <style jsx>
+      {`
+        header {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          background-color: #415ae1;
+          color: #ffffff;
+        }
+
+        .menu-items {
+          list-style: none;
+          display: flex;
+        }
+
+        .menu-item {
+          text-transform: uppercase;
+          min-width: 160px;
+          text-align: center;
+          cursor: pointer;
+        }
+
+        .menu-item:hover {
+          border-bottom: 2px #ffffff solid;
+        }
+      `}
+    </style>
   </header>
 );
 
-export default injectSheet(styles)(Header);
+export default Header;

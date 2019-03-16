@@ -121,6 +121,8 @@ const Layout = props => (
           font-family: "Roboto", sans-serif;
           -webkit-font-smoothing: antialiased;
           -moz-osx-font-smoothing: grayscale;
+          -webkit-text-stroke: 0.45px rgba(0, 0, 0, 0.1);
+          background-color: #fdfdff;
         }
         ol,
         ul {

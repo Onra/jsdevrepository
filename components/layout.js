@@ -1,4 +1,5 @@
 import Header from "./header";
+import Footer from "./footer";
 import Head from "next/head";
 
 const Layout = props => (
@@ -12,6 +13,7 @@ const Layout = props => (
     </Head>
     <Header />
     {props.children}
+    <Footer />
     <style global jsx>
       {`
         html,

@@ -1,0 +1,30 @@
+[
+  {
+    "category_name": "React",
+    "tags": ["react"],
+    "sites": [
+      {
+        "title": "React Documentation",
+        "site_url": "https://reactjs.org/docs/getting-started.html",
+        "description": "Official React documentation provided by Facebook"
+      },
+      {
+        "title": "React Blog",
+        "site_url": "https://reactjs.org/blog/2019/02/23/is-react-translated-yet.html",
+        "description": "Official React blog provided by Facebook"
+      }
+    ]
+  },
+  {
+    "category_name": "Blogs",
+    "tags": ["blogs"],
+    "sites": [
+      {
+        "title": "Overreacted",
+        "site_url": "https://overreacted.io/",
+        "description": "Dan Abramov's personal blog.",
+        "tags": ["react"]
+      }
+    ]
+  }
+]

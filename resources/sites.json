@@ -26,5 +26,17 @@
         "tags": ["react"]
       }
     ]
+  },
+  {
+    "category_name": "Podcasts",
+    "tags": ["podcasts"],
+    "sites": [
+      {
+        "title": "Syntax.",
+        "site_url": "https://syntax.fm/",
+        "description": "A Tasty Treats Podcast for Web Developers.",
+        "tags": ["JavaScript"]
+      }
+    ]
   }
 ]

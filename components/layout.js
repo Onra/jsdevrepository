@@ -124,7 +124,7 @@ const Layout = props => (
           -webkit-font-smoothing: antialiased;
           -moz-osx-font-smoothing: grayscale;
           -webkit-text-stroke: 0.45px rgba(0, 0, 0, 0.1);
-          background-color: #fdfdff;
+          background-color: #f4f9fc;
         }
         ol,
         ul {

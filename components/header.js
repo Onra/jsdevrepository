@@ -25,6 +25,7 @@ const Header = () => (
           color: #ffffff;
           display: flex;
           justify-content: center;
+          background-color: #415ae1;
         }
 
         .container {

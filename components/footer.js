@@ -12,6 +12,7 @@ const Footer = () => (
       footer {
         display: flex;
         justify-content: center;
+        margin-top: 40px;
       }
 
       .container {

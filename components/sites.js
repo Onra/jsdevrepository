@@ -6,12 +6,19 @@ const Sites = ({ items }) => (
   <div className="wrapper">
     <section className="container">
       {items.map((category, index) => (
-        <Fragment key={index}>
+        <div key={index} className="category">
           <Title text={category.category_name} variant="primary" />
-          {category.sites.map((site, key) => (
-            <SiteCard key={index} title={site.title} />
-          ))}
-        </Fragment>
+          <div className="cards">
+            {category.sites.map((site, idx) => (
+              <SiteCard
+                key={idx}
+                title={site.title}
+                description={site.description}
+                site_url={site.site_url}
+              />
+            ))}
+          </div>
+        </div>
       ))}
     </section>
     <style jsx>{`
@@ -22,6 +29,15 @@ const Sites = ({ items }) => (
 
       .container {
         width: 1200px;
+      }
+
+      .category {
+        margin-top: 40px;
+      }
+
+      .cards {
+        display: flex;
+        justify-content: space-between;
       }
     `}</style>
   </div>

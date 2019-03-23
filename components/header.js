@@ -22,7 +22,6 @@ const Header = () => (
     <style jsx>
       {`
         header {
-          background-color: #415ae1;
           color: #ffffff;
           display: flex;
           justify-content: center;
@@ -35,6 +34,7 @@ const Header = () => (
           height: 80px;
           width: 1400px;
           padding: 0 20px;
+          position: absolute;
         }
 
         .menu-items {

@@ -14,6 +14,7 @@ const Landing = () => (
         display: flex;
         justify-content: center;
         align-items: center;
+        background: url(/static/background.png);
       }
 
       .content {

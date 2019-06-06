@@ -27,11 +27,13 @@
   "homepage": "https://github.com/Onra/jsdevrepository#readme",
   "dependencies": {
     "next": "^8.0.3",
+    "next-eslint": "^0.0.4",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
-    "eslint-config-xo": "^0.26.0"
+    "eslint-config-xo": "^0.26.0",
+    "eslint-plugin-react": "^7.13.0"
   }
 }

@@ -1,10 +1,10 @@
 const Landing = () => (
   <div className="wrapper">
     <section className="content">
-      <h1>JS Dev Directory</h1>
+      <h1>React Dev Directory</h1>
       <h2>
-        The JS Dev Directory is a comprehensive list of blogs & sites covering
-        JavaScript development.
+        The React Dev Directory is a comprehensive list of blogs & sites
+        covering React development.
       </h2>
     </section>
     <style jsx>{`

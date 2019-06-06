@@ -38,5 +38,17 @@
         "tags": ["JavaScript"]
       }
     ]
+  },
+  {
+    "category_name": "Conferences",
+    "tags": ["conferences"],
+    "sites": [
+      {
+        "title": "React Europe",
+        "site_url": "https://www.react-europe.org/",
+        "description": "The Original European React Conference.",
+        "tags": ["JavaScript", "React"]
+      }
+    ]
   }
 ]

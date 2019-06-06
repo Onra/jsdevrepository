@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import Layout from "../components/layout";
 import Landing from "../components/landing";
 import sites from "../resources/sites";
